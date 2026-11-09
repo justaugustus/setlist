@@ -1,0 +1,11 @@
+{
+  "name": "setlist",
+  "private": true,
+  "scripts": {
+    "build": "marp -c marp.config.mjs && cp index.html _site/",
+    "serve": "marp -c marp.config.mjs --server"
+  },
+  "devDependencies": {
+    "@marp-team/marp-cli": "4.5.1"
+  }
+}

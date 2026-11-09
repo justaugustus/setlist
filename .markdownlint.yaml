@@ -1,0 +1,8 @@
+# Prose wraps at 120; tables and code blocks are exempt. Tables use the
+# compact style: one space either side of each cell.
+MD013:
+  line_length: 120
+  tables: false
+  code_blocks: false
+MD060:
+  style: compact
