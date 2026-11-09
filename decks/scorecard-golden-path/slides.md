@@ -34,7 +34,7 @@ Each result carries a reason and a remediation link. It's a heuristic signal, no
 ## Live: run it
 
 ```sh
-export GITHUB_AUTH_TOKEN=$(gh auth token)
+export GITHUB_AUTH_TOKEN=$(gh auth token -h github.com)
 export SCORECARD_EXPERIMENTAL=1        # enables the SBOM check
 
 scorecard --repo=github.com/sigstore/cosign \
